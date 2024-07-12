@@ -42,7 +42,7 @@ function Home() {
         <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl dark:text-white font-sans">
           Based in Pune.
         </h1>
-        <p className="text-lg sm:text-xl text-pink-700 mb-6 font-serif">
+        <p className="text-lg sm:text-xl text-pink-700 mb-6 font-semibold font-sans">
           I am a passionate web developer with{" "}
           <span className="text-pink-200 font-bold">2+ years </span>of
           experience crafting beautiful and functional web applications.
@@ -64,11 +64,11 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="md:w-1/2 mt-8 md:mt-0">
+      <div className="md:w-1/2 mt-8 md:mt-0 p-7">
         <img
           src="../../laptop.webp"
           alt="Laptop"
-          className="rounded-lg shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-full"
+          className=" transform hover:scale-105 transition duration-300 ease-in-out w-full"
         />
       </div>
     </div>

@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <header className="mt-3 absolute z-50 w-full px-4 sm:px-6 lg:px-8">
+    <header className=" mt-3 absolute z-50 w-full px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between">
         <a
           className="h-5 flex items-center space-x-1.5 font-semibold text-pink text-base group relative z-30 font-medium text-pink-900 hover:text-pink-900"

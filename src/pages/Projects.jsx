@@ -5,9 +5,10 @@ import { projectsList } from "../utils/helperList";
 function Projects() {
   return (
     <>
-   
       <div className="container mx-auto mt-20 px-4">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-100 to-pink-500">Projects</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-12 bg-clip-text text-pink-700">
+          Projects
+        </h1>
         {projectsList.map((proj) => (
           <Fragment key={proj.label}>
             <div className="flex flex-col md:flex-row my-12 md:px-12">

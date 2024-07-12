@@ -6,7 +6,7 @@ function Footer() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <footer className="bg-pink-800 text-white py-6">
+    <footer className=" bg-pink-800 text-white py-6">
       <div className="container mx-auto text-center">
         <ul className="flex justify-center space-x-6 mb-4">
           <p>Contact Me: </p>
