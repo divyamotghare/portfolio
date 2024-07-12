@@ -15,9 +15,6 @@ function Home() {
     return () => clearInterval(interval);
   }, []);
 
-  const openResumePDF = () => {
-    window.open("../../Divya_resume.pdf", "_blank", "noopener,noreferrer");
-  };
   return (
     <div className="text-pink-200 max-w-6xl mx-auto mt-10 px-7 md:mt-16 lg:mt-24 xl:px-0 flex flex-col items-center md:flex-row md:justify-between">
       <div className="md:w-1/2">
@@ -46,13 +43,13 @@ function Home() {
           experience crafting beautiful and functional web applications.
         </p>
         <div className="flex space-x-4 mb-8">
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="bg-pink-700 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           >
             View My Projects
-          </a>
-         
+          </Link>
+
           <a
             href="../../Divya_resume.pdf"
             target="_blank"
