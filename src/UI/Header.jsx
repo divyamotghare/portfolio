@@ -16,9 +16,8 @@ function Header() {
           href="/"
         >
           <span className="-translate-y-0.5 group-hover:scale-[1.2] ease-in-out cursor-pointer text-l transform transition-transform duration-300">
-            👻
+            🦝
           </span>
-          <span className="-translate-y-0.5 text-xl">Divya</span>
         </a>
 
         {/* Mobile menu button */}
