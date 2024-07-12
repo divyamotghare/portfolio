@@ -1,7 +1,7 @@
 export const projectsList = [
   {
     label: "Fast Pizza Co.",
-    imgSrc: "assets/images/fast-pizza-co.png",
+    imgSrc: "images/fast-pizza-co.png",
     src: "https://reactpizzao.netlify.app/",
     githubSrc: "https://github.com/divyamotghare/fast-react-pizza",
     description:
@@ -10,7 +10,7 @@ export const projectsList = [
   },
   {
     label: "Worldwise",
-    imgSrc: "assets/images/worldwise.png",
+    imgSrc: "images/worldwise.png",
     src: "https://worldwise-tracker.netlify.app/",
     githubSrc: "https://github.com/divyamotghare/worldwise",
     description:
@@ -19,7 +19,7 @@ export const projectsList = [
   },
   {
     label: "Forkify",
-    imgSrc: "assets/images/recipe.png",
+    imgSrc: "images/recipe.png",
     src: "https://grand-puppy-dd5017.netlify.app/",
     githubSrc: "https://github.com/divyamotghare/forkify",
     description:
@@ -28,7 +28,7 @@ export const projectsList = [
   },
   {
     label: "Wordle Clone",
-    imgSrc: "assets/images/wordle-clone.png",
+    imgSrc: "images/wordle-clone.png",
     src: "https://wordleclone04.netlify.app/",
     githubSrc: "https://github.com/divyamotghare/wordle",
     description:
@@ -37,7 +37,7 @@ export const projectsList = [
   },
   {
     label: "The Atomic Blog",
-    imgSrc: "assets/images/atomic-blog.png",
+    imgSrc: "images/atomic-blog.png",
     src: "https://divya-atomicblog.netlify.app/",
     githubSrc: "https://github.com/divyamotghare/atomicBlog",
     description:
