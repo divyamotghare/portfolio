@@ -24,6 +24,10 @@ function About() {
       name: "Git",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
     },
+    {
+      name: "Tailwind CSS",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
   ];
   return (
     <div className=" min-h-screen py-16">
@@ -69,7 +73,7 @@ function About() {
                       <img
                         src={skill.src}
                         alt={skill.name}
-                        className="w-20 h-20 mb-2"
+                        className="w-16 h-16 mb-2"
                       />
                       <span className="text-sm">{skill.name}</span>
                     </li>
