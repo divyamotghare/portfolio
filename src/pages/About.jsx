@@ -32,15 +32,17 @@ function About() {
   return (
     <div className=" min-h-screen py-16">
       <div className="max-w-4xl  mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-20">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-12 bg-clip-text text-pink-800">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-20 px-4 md:px-8 lg:px-12">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center md:text-left mb-8 md:mb-0 bg-clip-text text-pink-800 w-full md:w-1/2">
             About Me
           </h1>
-          <img
-            className="transform hover:scale-105 transition duration-500 ease-in-out"
-            src="../../space.webp"
-            alt="Space"
-          />
+          <div className="w-full md:w-1/2">
+            <img
+              className="w-full max-w-md mx-auto transform hover:scale-105 transition duration-500 ease-in-out"
+              src="../../space.webp"
+              alt="Space"
+            />
+          </div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2">
