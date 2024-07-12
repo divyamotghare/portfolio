@@ -47,7 +47,7 @@ function Home() {
             to="/projects"
             className="bg-pink-700 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           >
-            View My Projects
+            My Projects
           </Link>
 
           <a
