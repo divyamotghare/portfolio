@@ -4,14 +4,14 @@ import Footer from "./Footer";
 
 function AppLayout() {
   return (
-    <div className="flex flex-col min-h-screen bg-custom bg-cover bg-center bg-fixed">
-      <Header className="sticky top-0 z-10" />
+    <div className="flex flex-col min-h-screen z-50 bg-primary-bg bg-cover bg-center bg-fixed">
+      <Header className="flex-shrink-0" />
 
-      <main className="flex-grow">
+      <main className="flex-grow overflow-auto">
         <Outlet />
       </main>
 
-      <Footer className="sticky bottom-0 z-10" />
+      <Footer className="flex-shrink-0" />
     </div>
   );
 }

@@ -17,14 +17,14 @@ function Home() {
   }, []);
 
   return (
-    <div className="text-pink-200 max-w-6xl mx-auto mt-6 px-4 sm:px-6 md:mt-12 lg:mt-20 xl:px-0 flex flex-col items-center md:flex-row md:justify-between">
+    <div className="text-primary bg-primary-bg max-w-6xl mx-auto mt-6 px-4 sm:px-6 md:mt-12 lg:mt-20 xl:px-0 flex flex-col items-center md:flex-row md:justify-between">
       <div className="md:w-1/2 text-center md:text-left">
-        <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl dark:text-white font-sans">
-          Hello, I am <span className="text-pink-700">Divya</span>.
+        <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl  font-sans">
+          Hello, I am <span className="underline text-secondary">Divya</span>.
         </h1>
-        <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl dark:text-white font-sans">
-          <span className="skills">Creative</span>
-          <span className="relative text-pink-300">
+        <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl  font-sans">
+          <span className="skills ">Creative</span>
+          <span className="relative  text-pinkshade1">
             {words.map((word, i) => (
               <span
                 key={i}
@@ -42,15 +42,15 @@ function Home() {
         <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl dark:text-white font-sans">
           Based in Pune.
         </h1>
-        <p className="text-lg sm:text-xl text-pink-700 mb-6 font-semibold font-sans">
+        <p className="text-lg sm:text-xl text-pinkshade1 mb-6 font-semibold font-sans">
           I am a passionate web developer with{" "}
-          <span className="text-pink-200 font-bold">2+ years </span>of
+          <span className="text-primary underline font-bold">2+ years </span>of
           experience crafting beautiful and functional web applications.
         </p>
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
           <Link
             to="/projects"
-            className="bg-pink-700 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-full sm:w-auto text-center"
+            className="bg-pinkshade1 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-full sm:w-auto text-center"
           >
             View My Projects
           </Link>
@@ -58,7 +58,7 @@ function Home() {
             href="../../Divya_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-transparent hover:bg-pink-700 text-pink-700 font-semibold hover:text-white py-2 px-4 border border-pink-700 hover:border-transparent rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-full sm:w-auto text-center"
+            className="bg-transparent hover:bg-primary-bg  font-semibold hover:text-pinkshade1 py-2 px-4 border border-pinkshade1 hover:border-transparent rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-full sm:w-auto text-center"
           >
             Resume
           </a>

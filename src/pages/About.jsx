@@ -33,7 +33,7 @@ function About() {
     <div className=" min-h-screen py-16">
       <div className="max-w-4xl  mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-20 px-4 md:px-8 lg:px-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center md:text-left mb-8 md:mb-0 bg-clip-text text-pink-800 w-full md:w-1/2">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center md:text-left mb-8 md:mb-0 bg-clip-text text-primary w-full md:w-1/2">
             About Me
           </h1>
           <div className="w-full md:w-1/2">
@@ -46,8 +46,8 @@ function About() {
         </div>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2">
-            <p className="text-lg leading-relaxed space-y-4 font-semibold text-pink-900">
-              <span className=" block font-bold text-2xl text-pink-700 mb-4">
+            <p className="text-lg leading-relaxed space-y-4 font-semibold text-pinkshade1">
+              <span className=" block font-bold text-2xl text-pinkshade1 mb-4">
                 Hey there! 👋
               </span>
               I'm a front-end developer with over two years of hands-on
@@ -56,7 +56,7 @@ function About() {
               projects to life, focusing on creating sleek, responsive, and
               user-friendly interfaces.
             </p>
-            <p className="text-lg leading-relaxed font-semibold mt-4 text-pink-900">
+            <p className="text-lg leading-relaxed font-semibold mt-4 text-pinkshade1">
               My adventure in web development kicked off with a curiosity about
               how websites work and a drive to create awesome things on the web.
               Since then, I've tackled a variety of projects, each one adding a
@@ -65,11 +65,11 @@ function About() {
           </div>
           <div className="md:w-1/2">
             <div className="flex flex-col justify-center items-center ">
-              <h2 className="text-2xl mt-5 font-bold text-pink-900 text-center mb-4">
+              <h2 className="text-2xl mt-5 font-bold text-pinkshade1 text-center mb-4">
                 Skills
               </h2>
               <div className="bg-white bg-opacity-10 rounded-lg p-6 shadow-md">
-                <ul className="flex flex-wrap justify-center gap-3">
+                <ul className="flex flex-wrap justify-center gap-3 ">
                   {skillsData.map((skill, index) => (
                     <li key={index} className="flex flex-col items-center">
                       <img
@@ -77,7 +77,7 @@ function About() {
                         alt={skill.name}
                         className="w-16 h-16 mb-2"
                       />
-                      <span className="text-sm">{skill.name}</span>
+                      <span className="text-sm font-medium text-pinkshade1">{skill.name}</span>
                     </li>
                   ))}
                 </ul>

@@ -6,7 +6,7 @@ function Footer() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <footer className=" bg-pink-800 text-white py-6">
+    <footer className=" bg-pinkshade1 text-white py-6">
       <div className="container mx-auto text-center">
         <ul className="flex justify-center space-x-6 mb-4">
           <p>Contact Me: </p>
@@ -20,7 +20,7 @@ function Footer() {
               className="text-white hover:text-pink-400 transition duration-300 cursor-pointer"
             />
             {isHovered && (
-              <span className="absolute left-full ml-2 top-1/2 transform -translate-y-1/2 bg-pink-100 font-bold text-pink-900 px-2 py-1 rounded text-sm whitespace-nowrap">
+              <span className="absolute left-full ml-2 top-1/2 transform -translate-y-1/2 bg-primary font-bold text-white px-2 py-1 rounded text-sm whitespace-nowrap">
                 +91 8421790434
               </span>
             )}
