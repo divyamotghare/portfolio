@@ -5,7 +5,7 @@ import { projectsList } from "../utils/helperList";
 function Projects() {
   return (
     <>
-      <div className="container mx-auto mt-20 px-4">
+      <div className="container mx-auto mt-10 pt-5 sm:mt-20 px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-12 bg-clip-text text-primary">
           Projects
         </h1>
@@ -25,7 +25,9 @@ function Projects() {
                 <h3 className="text-2xl font-bold text-pinkshade1 mb-2">
                   {proj.label}
                 </h3>
-                {proj.description && <p className="mb-4 text-pinkshade1">{proj.description}</p>}
+                {proj.description && (
+                  <p className="mb-4 font-medium text-pinkshade1">{proj.description}</p>
+                )}
                 <button
                   onClick={() => window.open(proj.src, "_blank")}
                   className="bg-primary  hover:bg-pinkshade1 text-white font-bold py-2 px-4 rounded mr-2 mb-2"
@@ -35,7 +37,7 @@ function Projects() {
                 {proj.githubSrc && (
                   <button
                     onClick={() => window.open(proj.githubSrc, "_blank")}
-                    className="bg-white hover:bg-white text-pinkshade1 font-bold py-2 px-4 rounded mb-2"
+                    className="bg-transparent hover:text-pinkshade1 text-primary border-2 border-primary hover:border-pinkshade1 font-bold py-2 px-4 rounded mb-2"
                   >
                     Source Code
                   </button>
