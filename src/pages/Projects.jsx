@@ -30,14 +30,14 @@ function Projects() {
                 )}
                 <button
                   onClick={() => window.open(proj.src, "_blank")}
-                  className="bg-primary  hover:bg-pinkshade1 text-white font-bold py-2 px-4 rounded mr-2 mb-2"
+                  className="bg-primary  hover:bg-pinkshade1 text-white font-bold py-2 px-4 rounded mr-3"
                 >
                   See This Live
                 </button>
                 {proj.githubSrc && (
                   <button
                     onClick={() => window.open(proj.githubSrc, "_blank")}
-                    className="bg-transparent hover:text-pinkshade1 text-primary border-2 border-primary hover:border-pinkshade1 font-bold py-2 px-4 rounded mb-2"
+                    className="bg-transparent hover:text-pinkshade1 text-primary border-2 border-primary hover:border-pinkshade1 font-bold py-2 px-4 rounded mb-0"
                   >
                     Source Code
                   </button>
@@ -46,7 +46,7 @@ function Projects() {
                   {proj.stack?.map((el) => (
                     <span
                       key={el}
-                      className="inline-block bg-pink-100 rounded-full px-3 py-1 text-sm font-semibold text-pinkshade1 mr-2 mb-2"
+                      className="inline-block bg-pink-100 rounded-full px-3 py-1 text-sm font-semibold text-pinkshade1 mr-2"
                     >
                       {el}
                     </span>
