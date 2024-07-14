@@ -35,7 +35,7 @@ function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-10 w-full px-4 sm:px-6 lg:px-8 ${
+      className={`sticky top-0 z-10 w-full px-4 mt-4 sm:mt-0 sm:px-6 lg:px-8 ${
         isScrolled
           ? "bg-opacity-40 backdrop-blur-md  shadow-md"
           : "bg-transparent"
@@ -53,7 +53,7 @@ function Header() {
 
         {/* Mobile menu button */}
         <button
-          className="sm:hidden text-pink-500 hover:text-pink-900"
+          className="sm:hidden text-primary hover:text-pinkshade1"
           onClick={toggleMenu}
         >
           {isMenuOpen ? (
