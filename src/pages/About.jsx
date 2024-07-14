@@ -33,7 +33,7 @@ function About() {
     <div className=" min-h-screen py-16">
       <div className="max-w-4xl  mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-20 px-4 md:px-8 lg:px-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center md:text-left mb-8 md:mb-0 bg-clip-text text-primary w-full md:w-1/2">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center md:text-left mb-0 bg-clip-text text-primary w-full md:w-1/2">
             About Me
           </h1>
           <div className="w-full md:w-1/2">
@@ -77,7 +77,9 @@ function About() {
                         alt={skill.name}
                         className="w-16 h-16 mb-2"
                       />
-                      <span className="text-sm font-medium text-pinkshade1">{skill.name}</span>
+                      <span className="text-sm font-medium text-pinkshade1">
+                        {skill.name}
+                      </span>
                     </li>
                   ))}
                 </ul>
