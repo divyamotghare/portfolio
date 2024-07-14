@@ -91,7 +91,7 @@ function Header() {
 
         {/* Navigation menu */}
         <nav
-          className={`${isMenuOpen ? "block  bg-white" : "hidden sm:bg-transparent"} sm:flex sm:items-center absolute sm:relative top-full left-0 right-0  shadow-md sm:shadow-none`}
+          className={`${isMenuOpen ? "block  bg-primary-bg" : "hidden sm:bg-transparent"} sm:flex sm:items-center absolute sm:relative top-full left-0 right-0  shadow-md sm:shadow-none`}
         >
           <Link
             className={`block sm:inline-block text-xl px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out ${
