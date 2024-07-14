@@ -30,9 +30,9 @@ function About() {
     },
   ];
   return (
-    <div className=" min-h-screen py-16">
-      <div className="max-w-4xl  mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-20 px-4 md:px-8 lg:px-12">
+    <div className=" min-h-screen py-10">
+      <div className="max-w-4xl mx-auto px-8 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-12 lg:gap-20 px-4 md:px-8 lg:px-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center md:text-left mb-0 bg-clip-text text-primary w-full md:w-1/2">
             About Me
           </h1>

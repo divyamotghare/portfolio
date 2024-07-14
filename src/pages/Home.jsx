@@ -17,7 +17,7 @@ function Home() {
   }, []);
 
   return (
-    <div className=" max-w-6xl mx-auto px-6 sm:px-6 xl:px-0 py-12 md:py-20 flex flex-col md:flex-row items-center justify-between text-primary bg-primary-bg">
+    <div className=" max-w-6xl mx-auto px-6 sm:px-6 xl:px-0 pb-10 sm:py-8 flex flex-col md:flex-row items-center justify-between text-primary bg-primary-bg">
       <div className="md:w-1/2 mb-0">
         <img
           src="../../laptop.webp"

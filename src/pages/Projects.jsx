@@ -5,7 +5,7 @@ import { projectsList } from "../utils/helperList";
 function Projects() {
   return (
     <>
-      <div className="container mx-auto mt-10 pt-5 sm:mt-20 px-4">
+      <div className="container mx-auto mt-3 pt-5 sm:mt-20 px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-12 bg-clip-text text-primary">
           Projects
         </h1>
