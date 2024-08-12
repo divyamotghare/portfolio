@@ -62,7 +62,7 @@ function Home() {
             View My Projects
           </Link>
           <a
-            href="../../Divya_resume.pdf"
+            href="../../resume_divya.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent hover:bg-primary-bg font-semibold text-pinkshade1 hover:text-white py-3 px-6 border-2 border-pinkshade1 hover:border-transparent rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 w-full sm:w-auto text-center"

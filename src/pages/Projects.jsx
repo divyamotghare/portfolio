@@ -26,7 +26,9 @@ function Projects() {
                   {proj.label}
                 </h3>
                 {proj.description && (
-                  <p className="mb-4 font-medium text-pinkshade1">{proj.description}</p>
+                  <p className="mb-4 font-medium text-pinkshade1">
+                    {proj.description}
+                  </p>
                 )}
                 <button
                   onClick={() => window.open(proj.src, "_blank")}
