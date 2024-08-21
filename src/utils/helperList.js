@@ -20,7 +20,7 @@ export const projectsList = [
   {
     label: "Forkify",
     imgSrc: "images/recipe.png",
-    src: "https://grand-puppy-dd5017.netlify.app/",
+    src: "https://recipesfun.netlify.app/",
     githubSrc: "https://github.com/divyamotghare/forkify",
     description:
       "With this app, users can easily add, search, bookmark, and view a wide variety of recipes. The app also features functionality to adjust the number of servings for each recipe, making meal planning flexible and convenient.",
