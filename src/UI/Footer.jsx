@@ -21,7 +21,7 @@ function Footer() {
             />
             {isHovered && (
               <span className="absolute left-full ml-2 top-1/2 transform -translate-y-1/2 bg-primary font-bold text-white px-2 py-1 rounded text-sm whitespace-nowrap">
-                +91 8421790434
+                +91 7218424968
               </span>
             )}
           </div>
